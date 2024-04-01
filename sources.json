@@ -1,0 +1,83 @@
+[
+    {
+        "id": "national",
+        "description": "National Radar Image",
+        "interval": 600,
+        "url": "http://www.bom.gov.au/radar/IDR00004.jpg"
+    },
+
+    {
+        "id": "vic",
+        "description": "VIC",
+        "items": [
+            {
+                "id": "melbourne",
+                "description": "Melbourne",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR024.gif"
+                    },
+                
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR023.gif"
+                    },
+                
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR022.gif"
+                    },
+                
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR021.gif"
+                    },
+                
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR02I.gif"
+                    },
+                
+                    {
+                        "id": "rf5m",
+                        "description": "rainfall in 5 min",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR02A.gif"
+                    },
+                
+                    {
+                        "id": "rf1h",
+                        "description": "rainfall in 1 hour",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR02B.gif"
+                    },
+                
+                    {
+                        "id": "rf9am",
+                        "description": "rainfall since 9am",
+                        "interval": 3600,
+                        "url": "http://www.bom.gov.au/radar/IDR02C.gif"
+                    },
+                
+                    {
+                        "id": "rf24h",
+                        "description": "rainfall in 24 hours",
+                        "interval": 86400,
+                        "url": "http://www.bom.gov.au/radar/IDR02D.gif"
+                    }
+                ]
+            }
+        ]
+    }
+]
