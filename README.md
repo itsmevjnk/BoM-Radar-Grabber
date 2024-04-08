@@ -32,9 +32,6 @@ The image to be scraped can be specified using either its URL or its source ID c
 python3 bomgrab.py -id vic/melbourne/64
 ```
 
-**NOTE:** The `sources.json` file as of now only contains the national radar image source, as well as sources from the Melbourne station. Refer to the **Contributing** section if you are interested in adding more stations to the list.
-
-
 ## Contributing
 
 Contributions to this project through pull requests and issues are welcome.

@@ -5,11 +5,574 @@
         "interval": 600,
         "url": "http://www.bom.gov.au/radar/IDR00004.jpg"
     },
-
+    {
+        "id": "nsw",
+        "description": "NSW/ACT",
+        "items": [
+            {
+                "id": "brewarrina",
+                "description": "Brewarrina",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR934.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR933.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR932.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR931.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR93I.gif"
+                    },
+                    {
+                        "id": "rf5m",
+                        "description": "rainfall in 5 min",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR93A.gif"
+                    },
+                    {
+                        "id": "rf1h",
+                        "description": "rainfall in 1 hour",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR93B.gif"
+                    },
+                    {
+                        "id": "rf9am",
+                        "description": "rainfall since 9am",
+                        "interval": 3600,
+                        "url": "http://www.bom.gov.au/radar/IDR93C.gif"
+                    },
+                    {
+                        "id": "rf24h",
+                        "description": "rainfall in 24 hours",
+                        "interval": 86400,
+                        "url": "http://www.bom.gov.au/radar/IDR93D.gif"
+                    }
+                ]
+            },
+            {
+                "id": "canberra",
+                "description": "Canberra (Captains Flat)",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR404.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR403.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR402.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR401.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR40I.gif"
+                    },
+                    {
+                        "id": "rf5m",
+                        "description": "rainfall in 5 min",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR40A.gif"
+                    },
+                    {
+                        "id": "rf1h",
+                        "description": "rainfall in 1 hour",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR40B.gif"
+                    },
+                    {
+                        "id": "rf9am",
+                        "description": "rainfall since 9am",
+                        "interval": 3600,
+                        "url": "http://www.bom.gov.au/radar/IDR40C.gif"
+                    },
+                    {
+                        "id": "rf24h",
+                        "description": "rainfall in 24 hours",
+                        "interval": 86400,
+                        "url": "http://www.bom.gov.au/radar/IDR40D.gif"
+                    }
+                ]
+            },
+            {
+                "id": "grafton",
+                "description": "Grafton",
+                "items": [
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR283.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR282.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR281.gif"
+                    }
+                ]
+            },
+            {
+                "id": "hillston",
+                "description": "Hillston",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR944.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR943.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR942.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR941.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR94I.gif"
+                    },
+                    {
+                        "id": "rf5m",
+                        "description": "rainfall in 5 min",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR94A.gif"
+                    },
+                    {
+                        "id": "rf1h",
+                        "description": "rainfall in 1 hour",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR94B.gif"
+                    },
+                    {
+                        "id": "rf9am",
+                        "description": "rainfall since 9am",
+                        "interval": 3600,
+                        "url": "http://www.bom.gov.au/radar/IDR94C.gif"
+                    },
+                    {
+                        "id": "rf24h",
+                        "description": "rainfall in 24 hours",
+                        "interval": 86400,
+                        "url": "http://www.bom.gov.au/radar/IDR94D.gif"
+                    }
+                ]
+            },
+            {
+                "id": "moree",
+                "description": "Moree",
+                "items": [
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR533.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR532.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR531.gif"
+                    }
+                ]
+            },
+            {
+                "id": "namoi",
+                "description": "Namoi (Blackjack Mountain)",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR694.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR693.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR692.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR691.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR69I.gif"
+                    }
+                ]
+            },
+            {
+                "id": "newcastle",
+                "description": "Newcastle",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR044.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR043.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR042.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR041.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR04I.gif"
+                    },
+                    {
+                        "id": "rf5m",
+                        "description": "rainfall in 5 min",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR04A.gif"
+                    },
+                    {
+                        "id": "rf1h",
+                        "description": "rainfall in 1 hour",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR04B.gif"
+                    },
+                    {
+                        "id": "rf9am",
+                        "description": "rainfall since 9am",
+                        "interval": 3600,
+                        "url": "http://www.bom.gov.au/radar/IDR04C.gif"
+                    },
+                    {
+                        "id": "rf24h",
+                        "description": "rainfall in 24 hours",
+                        "interval": 86400,
+                        "url": "http://www.bom.gov.au/radar/IDR04D.gif"
+                    }
+                ]
+            },
+            {
+                "id": "sydney",
+                "description": "Sydney (Terrey Hills)",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR714.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR713.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR712.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR711.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR71I.gif"
+                    },
+                    {
+                        "id": "rf5m",
+                        "description": "rainfall in 5 min",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR71A.gif"
+                    },
+                    {
+                        "id": "rf1h",
+                        "description": "rainfall in 1 hour",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR71B.gif"
+                    },
+                    {
+                        "id": "rf9am",
+                        "description": "rainfall since 9am",
+                        "interval": 3600,
+                        "url": "http://www.bom.gov.au/radar/IDR71C.gif"
+                    },
+                    {
+                        "id": "rf24h",
+                        "description": "rainfall in 24 hours",
+                        "interval": 86400,
+                        "url": "http://www.bom.gov.au/radar/IDR71D.gif"
+                    }
+                ]
+            },
+            {
+                "id": "wagga",
+                "description": "Wagga Wagga",
+                "items": [
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR553.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR552.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR551.gif"
+                    }
+                ]
+            },
+            {
+                "id": "wollongong",
+                "description": "Wollongong (Appin)",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR034.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR033.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR032.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR031.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR03I.gif"
+                    },
+                    {
+                        "id": "rf5m",
+                        "description": "rainfall in 5 min",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR03A.gif"
+                    },
+                    {
+                        "id": "rf1h",
+                        "description": "rainfall in 1 hour",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR03B.gif"
+                    },
+                    {
+                        "id": "rf9am",
+                        "description": "rainfall since 9am",
+                        "interval": 3600,
+                        "url": "http://www.bom.gov.au/radar/IDR03C.gif"
+                    },
+                    {
+                        "id": "rf24h",
+                        "description": "rainfall in 24 hours",
+                        "interval": 86400,
+                        "url": "http://www.bom.gov.au/radar/IDR03D.gif"
+                    }
+                ]
+            },
+            {
+                "id": "yeoval",
+                "description": "Yeoval",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR964.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR963.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR962.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR961.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR96I.gif"
+                    },
+                    {
+                        "id": "rf5m",
+                        "description": "rainfall in 5 min",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR96A.gif"
+                    },
+                    {
+                        "id": "rf1h",
+                        "description": "rainfall in 1 hour",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR96B.gif"
+                    },
+                    {
+                        "id": "rf9am",
+                        "description": "rainfall since 9am",
+                        "interval": 3600,
+                        "url": "http://www.bom.gov.au/radar/IDR96C.gif"
+                    },
+                    {
+                        "id": "rf24h",
+                        "description": "rainfall in 24 hours",
+                        "interval": 86400,
+                        "url": "http://www.bom.gov.au/radar/IDR96D.gif"
+                    }
+                ]
+            }
+        ]
+    },
     {
         "id": "vic",
         "description": "VIC",
         "items": [
+            {
+                "id": "bairnsdale",
+                "description": "Bairnsdale",
+                "items": [
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR683.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR682.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR681.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR68I.gif"
+                    }
+                ]
+            },
             {
                 "id": "melbourne",
                 "description": "Melbourne",
@@ -20,61 +583,2231 @@
                         "interval": 300,
                         "url": "http://www.bom.gov.au/radar/IDR024.gif"
                     },
-                
                     {
                         "id": "128",
                         "description": "128 km",
                         "interval": 300,
                         "url": "http://www.bom.gov.au/radar/IDR023.gif"
                     },
-                
                     {
                         "id": "256",
                         "description": "256 km",
                         "interval": 300,
                         "url": "http://www.bom.gov.au/radar/IDR022.gif"
                     },
-                
                     {
                         "id": "512",
                         "description": "512 km composite",
                         "interval": 300,
                         "url": "http://www.bom.gov.au/radar/IDR021.gif"
                     },
-                
                     {
                         "id": "dopp",
                         "description": "Doppler wind",
                         "interval": 300,
                         "url": "http://www.bom.gov.au/radar/IDR02I.gif"
                     },
-                
                     {
                         "id": "rf5m",
                         "description": "rainfall in 5 min",
                         "interval": 300,
                         "url": "http://www.bom.gov.au/radar/IDR02A.gif"
                     },
-                
                     {
                         "id": "rf1h",
                         "description": "rainfall in 1 hour",
                         "interval": 300,
                         "url": "http://www.bom.gov.au/radar/IDR02B.gif"
                     },
-                
                     {
                         "id": "rf9am",
                         "description": "rainfall since 9am",
                         "interval": 3600,
                         "url": "http://www.bom.gov.au/radar/IDR02C.gif"
                     },
-                
                     {
                         "id": "rf24h",
                         "description": "rainfall in 24 hours",
                         "interval": 86400,
                         "url": "http://www.bom.gov.au/radar/IDR02D.gif"
+                    }
+                ]
+            },
+            {
+                "id": "mildura",
+                "description": "Mildura",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR974.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR973.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR972.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR971.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR97I.gif"
+                    },
+                    {
+                        "id": "rf5m",
+                        "description": "rainfall in 5 min",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR97A.gif"
+                    },
+                    {
+                        "id": "rf1h",
+                        "description": "rainfall in 1 hour",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR97B.gif"
+                    },
+                    {
+                        "id": "rf9am",
+                        "description": "rainfall since 9am",
+                        "interval": 3600,
+                        "url": "http://www.bom.gov.au/radar/IDR97C.gif"
+                    },
+                    {
+                        "id": "rf24h",
+                        "description": "rainfall in 24 hours",
+                        "interval": 86400,
+                        "url": "http://www.bom.gov.au/radar/IDR97D.gif"
+                    }
+                ]
+            },
+            {
+                "id": "rainbow",
+                "description": "Rainbow",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR954.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR953.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR952.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR951.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR95I.gif"
+                    },
+                    {
+                        "id": "rf5m",
+                        "description": "rainfall in 5 min",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR95A.gif"
+                    },
+                    {
+                        "id": "rf1h",
+                        "description": "rainfall in 1 hour",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR95B.gif"
+                    },
+                    {
+                        "id": "rf9am",
+                        "description": "rainfall since 9am",
+                        "interval": 3600,
+                        "url": "http://www.bom.gov.au/radar/IDR95C.gif"
+                    },
+                    {
+                        "id": "rf24h",
+                        "description": "rainfall in 24 hours",
+                        "interval": 86400,
+                        "url": "http://www.bom.gov.au/radar/IDR95D.gif"
+                    }
+                ]
+            },
+            {
+                "id": "yarrawonga",
+                "description": "Yarrawonga",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR494.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR493.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR492.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR491.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR49I.gif"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "qld",
+        "description": "QLD",
+        "items": [
+            {
+                "id": "bowen",
+                "description": "Bowen",
+                "items": [
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR243.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR242.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR241.gif"
+                    }
+                ]
+            },
+            {
+                "id": "brisbane_marburg",
+                "description": "Brisbane (Marburg)",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR504.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR503.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR502.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR501.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR50I.gif"
+                    }
+                ]
+            },
+            {
+                "id": "brisbane_stapylton",
+                "description": "Brisbane (Mt Stapylton)",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR664.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR663.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR662.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR661.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR66I.gif"
+                    },
+                    {
+                        "id": "rf5m",
+                        "description": "rainfall in 5 min",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR66A.gif"
+                    },
+                    {
+                        "id": "rf1h",
+                        "description": "rainfall in 1 hour",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR66B.gif"
+                    },
+                    {
+                        "id": "rf9am",
+                        "description": "rainfall since 9am",
+                        "interval": 3600,
+                        "url": "http://www.bom.gov.au/radar/IDR66C.gif"
+                    },
+                    {
+                        "id": "rf24h",
+                        "description": "rainfall in 24 hours",
+                        "interval": 86400,
+                        "url": "http://www.bom.gov.au/radar/IDR66D.gif"
+                    }
+                ]
+            },
+            {
+                "id": "brisbane_ap",
+                "description": "Brisbane Airport",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR1054.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR1053.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR1052.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR1051.gif"
+                    }
+                ]
+            },
+            {
+                "id": "cairns",
+                "description": "Cairns",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR194.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR193.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR192.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR191.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR19I.gif"
+                    }
+                ]
+            },
+            {
+                "id": "emerald",
+                "description": "Emerald",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR724.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR723.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR722.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR721.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR72I.gif"
+                    }
+                ]
+            },
+            {
+                "id": "gladstone",
+                "description": "Gladstone",
+                "items": [
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR233.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR232.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR231.gif"
+                    }
+                ]
+            },
+            {
+                "id": "greenvale",
+                "description": "Greenvale",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR744.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR743.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR742.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR741.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR74I.gif"
+                    },
+                    {
+                        "id": "rf5m",
+                        "description": "rainfall in 5 min",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR74A.gif"
+                    },
+                    {
+                        "id": "rf1h",
+                        "description": "rainfall in 1 hour",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR74B.gif"
+                    },
+                    {
+                        "id": "rf9am",
+                        "description": "rainfall since 9am",
+                        "interval": 3600,
+                        "url": "http://www.bom.gov.au/radar/IDR74C.gif"
+                    },
+                    {
+                        "id": "rf24h",
+                        "description": "rainfall in 24 hours",
+                        "interval": 86400,
+                        "url": "http://www.bom.gov.au/radar/IDR74D.gif"
+                    }
+                ]
+            },
+            {
+                "id": "carpentaria",
+                "description": "Gulf of Carpentaria (Mornington Is)",
+                "items": [
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR363.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR362.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR361.gif"
+                    }
+                ]
+            },
+            {
+                "id": "gympie",
+                "description": "Gympie (Mt Kanigan)",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR084.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR083.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR082.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR081.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR08I.gif"
+                    },
+                    {
+                        "id": "rf5m",
+                        "description": "rainfall in 5 min",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR08A.gif"
+                    },
+                    {
+                        "id": "rf1h",
+                        "description": "rainfall in 1 hour",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR08B.gif"
+                    },
+                    {
+                        "id": "rf9am",
+                        "description": "rainfall since 9am",
+                        "interval": 3600,
+                        "url": "http://www.bom.gov.au/radar/IDR08C.gif"
+                    },
+                    {
+                        "id": "rf24h",
+                        "description": "rainfall in 24 hours",
+                        "interval": 86400,
+                        "url": "http://www.bom.gov.au/radar/IDR08D.gif"
+                    }
+                ]
+            },
+            {
+                "id": "longreach",
+                "description": "Longreach",
+                "items": [
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR563.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR562.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR561.gif"
+                    }
+                ]
+            },
+            {
+                "id": "mackay",
+                "description": "Mackay",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR224.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR223.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR222.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR221.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR22I.gif"
+                    }
+                ]
+            },
+            {
+                "id": "isa",
+                "description": "Mount Isa",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR754.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR753.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR752.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR751.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR75I.gif"
+                    },
+                    {
+                        "id": "rf5m",
+                        "description": "rainfall in 5 min",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR75A.gif"
+                    },
+                    {
+                        "id": "rf1h",
+                        "description": "rainfall in 1 hour",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR75B.gif"
+                    },
+                    {
+                        "id": "rf9am",
+                        "description": "rainfall since 9am",
+                        "interval": 3600,
+                        "url": "http://www.bom.gov.au/radar/IDR75C.gif"
+                    },
+                    {
+                        "id": "rf24h",
+                        "description": "rainfall in 24 hours",
+                        "interval": 86400,
+                        "url": "http://www.bom.gov.au/radar/IDR75D.gif"
+                    }
+                ]
+            },
+            {
+                "id": "richmond",
+                "description": "Richmond",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR1074.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR1073.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR1072.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR1071.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR107I.gif"
+                    },
+                    {
+                        "id": "rf5m",
+                        "description": "rainfall in 5 min",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR107A.gif"
+                    },
+                    {
+                        "id": "rf1h",
+                        "description": "rainfall in 1 hour",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR107B.gif"
+                    },
+                    {
+                        "id": "rf9am",
+                        "description": "rainfall since 9am",
+                        "interval": 3600,
+                        "url": "http://www.bom.gov.au/radar/IDR107C.gif"
+                    },
+                    {
+                        "id": "rf24h",
+                        "description": "rainfall in 24 hours",
+                        "interval": 86400,
+                        "url": "http://www.bom.gov.au/radar/IDR107D.gif"
+                    }
+                ]
+            },
+            {
+                "id": "taroom",
+                "description": "Taroom",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR984.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR983.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR982.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR981.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR98I.gif"
+                    },
+                    {
+                        "id": "rf5m",
+                        "description": "rainfall in 5 min",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR98A.gif"
+                    },
+                    {
+                        "id": "rf1h",
+                        "description": "rainfall in 1 hour",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR98B.gif"
+                    },
+                    {
+                        "id": "rf9am",
+                        "description": "rainfall since 9am",
+                        "interval": 3600,
+                        "url": "http://www.bom.gov.au/radar/IDR98C.gif"
+                    },
+                    {
+                        "id": "rf24h",
+                        "description": "rainfall in 24 hours",
+                        "interval": 86400,
+                        "url": "http://www.bom.gov.au/radar/IDR98D.gif"
+                    }
+                ]
+            },
+            {
+                "id": "townsville",
+                "description": "Townsville (Hervey Range)",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR734.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR733.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR732.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR731.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR73I.gif"
+                    }
+                ]
+            },
+            {
+                "id": "warrego",
+                "description": "Warrego",
+                "items": [
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR673.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR672.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR671.gif"
+                    }
+                ]
+            },
+            {
+                "id": "weipa",
+                "description": "Weipa",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR784.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR783.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR782.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR781.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR78I.gif"
+                    }
+                ]
+            },
+            {
+                "id": "willis",
+                "description": "Willis Island",
+                "items": [
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR413.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR412.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR411.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR41I.gif"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "wa",
+        "description": "WA",
+        "items": [
+            {
+                "id": "albany",
+                "description": "Albany",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR314.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR313.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR312.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR311.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR31I.gif"
+                    },
+                    {
+                        "id": "rf5m",
+                        "description": "rainfall in 5 min",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR31A.gif"
+                    },
+                    {
+                        "id": "rf1h",
+                        "description": "rainfall in 1 hour",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR31B.gif"
+                    },
+                    {
+                        "id": "rf9am",
+                        "description": "rainfall since 9am",
+                        "interval": 3600,
+                        "url": "http://www.bom.gov.au/radar/IDR31C.gif"
+                    },
+                    {
+                        "id": "rf24h",
+                        "description": "rainfall in 24 hours",
+                        "interval": 86400,
+                        "url": "http://www.bom.gov.au/radar/IDR31D.gif"
+                    }
+                ]
+            },
+            {
+                "id": "broome",
+                "description": "Broome",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR174.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR173.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR172.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR171.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR17I.gif"
+                    },
+                    {
+                        "id": "rf5m",
+                        "description": "rainfall in 5 min",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR17A.gif"
+                    },
+                    {
+                        "id": "rf1h",
+                        "description": "rainfall in 1 hour",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR17B.gif"
+                    },
+                    {
+                        "id": "rf9am",
+                        "description": "rainfall since 9am",
+                        "interval": 3600,
+                        "url": "http://www.bom.gov.au/radar/IDR17C.gif"
+                    },
+                    {
+                        "id": "rf24h",
+                        "description": "rainfall in 24 hours",
+                        "interval": 86400,
+                        "url": "http://www.bom.gov.au/radar/IDR17D.gif"
+                    }
+                ]
+            },
+            {
+                "id": "carnarvon",
+                "description": "Carnarvon",
+                "items": [
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR053.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR052.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR051.gif"
+                    }
+                ]
+            },
+            {
+                "id": "dampier",
+                "description": "Dampier",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR154.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR153.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR152.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR151.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR15I.gif"
+                    },
+                    {
+                        "id": "rf5m",
+                        "description": "rainfall in 5 min",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR15A.gif"
+                    },
+                    {
+                        "id": "rf1h",
+                        "description": "rainfall in 1 hour",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR15B.gif"
+                    },
+                    {
+                        "id": "rf9am",
+                        "description": "rainfall since 9am",
+                        "interval": 3600,
+                        "url": "http://www.bom.gov.au/radar/IDR15C.gif"
+                    },
+                    {
+                        "id": "rf24h",
+                        "description": "rainfall in 24 hours",
+                        "interval": 86400,
+                        "url": "http://www.bom.gov.au/radar/IDR15D.gif"
+                    }
+                ]
+            },
+            {
+                "id": "esperance",
+                "description": "Esperance",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR324.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR323.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR322.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR321.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR32I.gif"
+                    },
+                    {
+                        "id": "rf5m",
+                        "description": "rainfall in 5 min",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR32A.gif"
+                    },
+                    {
+                        "id": "rf1h",
+                        "description": "rainfall in 1 hour",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR32B.gif"
+                    },
+                    {
+                        "id": "rf9am",
+                        "description": "rainfall since 9am",
+                        "interval": 3600,
+                        "url": "http://www.bom.gov.au/radar/IDR32C.gif"
+                    },
+                    {
+                        "id": "rf24h",
+                        "description": "rainfall in 24 hours",
+                        "interval": 86400,
+                        "url": "http://www.bom.gov.au/radar/IDR32D.gif"
+                    }
+                ]
+            },
+            {
+                "id": "geraldton",
+                "description": "Geraldton",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR064.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR063.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR062.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR061.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR06I.gif"
+                    },
+                    {
+                        "id": "rf5m",
+                        "description": "rainfall in 5 min",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR06A.gif"
+                    },
+                    {
+                        "id": "rf1h",
+                        "description": "rainfall in 1 hour",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR06B.gif"
+                    },
+                    {
+                        "id": "rf9am",
+                        "description": "rainfall since 9am",
+                        "interval": 3600,
+                        "url": "http://www.bom.gov.au/radar/IDR06C.gif"
+                    },
+                    {
+                        "id": "rf24h",
+                        "description": "rainfall in 24 hours",
+                        "interval": 86400,
+                        "url": "http://www.bom.gov.au/radar/IDR06D.gif"
+                    }
+                ]
+            },
+            {
+                "id": "giles",
+                "description": "Giles",
+                "items": [
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR443.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR442.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR441.gif"
+                    }
+                ]
+            },
+            {
+                "id": "halls",
+                "description": "Halls Creek",
+                "items": [
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR393.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR392.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR391.gif"
+                    }
+                ]
+            },
+            {
+                "id": "kalgoorlie",
+                "description": "Kalgoorlie",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR484.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR483.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR482.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR481.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR48I.gif"
+                    },
+                    {
+                        "id": "rf5m",
+                        "description": "rainfall in 5 min",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR48A.gif"
+                    },
+                    {
+                        "id": "rf1h",
+                        "description": "rainfall in 1 hour",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR48B.gif"
+                    },
+                    {
+                        "id": "rf9am",
+                        "description": "rainfall since 9am",
+                        "interval": 3600,
+                        "url": "http://www.bom.gov.au/radar/IDR48C.gif"
+                    },
+                    {
+                        "id": "rf24h",
+                        "description": "rainfall in 24 hours",
+                        "interval": 86400,
+                        "url": "http://www.bom.gov.au/radar/IDR48D.gif"
+                    }
+                ]
+            },
+            {
+                "id": "learmonth",
+                "description": "Learmonth",
+                "items": [
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR293.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR292.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR291.gif"
+                    }
+                ]
+            },
+            {
+                "id": "newdegate",
+                "description": "Newdegate",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR384.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR383.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR382.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR381.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR38I.gif"
+                    },
+                    {
+                        "id": "rf5m",
+                        "description": "rainfall in 5 min",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR38A.gif"
+                    },
+                    {
+                        "id": "rf1h",
+                        "description": "rainfall in 1 hour",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR38B.gif"
+                    },
+                    {
+                        "id": "rf9am",
+                        "description": "rainfall since 9am",
+                        "interval": 3600,
+                        "url": "http://www.bom.gov.au/radar/IDR38C.gif"
+                    },
+                    {
+                        "id": "rf24h",
+                        "description": "rainfall in 24 hours",
+                        "interval": 86400,
+                        "url": "http://www.bom.gov.au/radar/IDR38D.gif"
+                    }
+                ]
+            },
+            {
+                "id": "perth",
+                "description": "Perth (Serpentine)",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR704.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR703.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR702.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR701.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR70I.gif"
+                    },
+                    {
+                        "id": "rf5m",
+                        "description": "rainfall in 5 min",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR70A.gif"
+                    },
+                    {
+                        "id": "rf1h",
+                        "description": "rainfall in 1 hour",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR70B.gif"
+                    },
+                    {
+                        "id": "rf9am",
+                        "description": "rainfall since 9am",
+                        "interval": 3600,
+                        "url": "http://www.bom.gov.au/radar/IDR70C.gif"
+                    },
+                    {
+                        "id": "rf24h",
+                        "description": "rainfall in 24 hours",
+                        "interval": 86400,
+                        "url": "http://www.bom.gov.au/radar/IDR70D.gif"
+                    }
+                ]
+            },
+            {
+                "id": "hedland",
+                "description": "Pt Hedland",
+                "items": [
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR163.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR162.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR161.gif"
+                    }
+                ]
+            },
+            {
+                "id": "doodlakine",
+                "description": "South Doodlakine",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR584.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR583.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR582.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR581.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR58I.gif"
+                    },
+                    {
+                        "id": "rf5m",
+                        "description": "rainfall in 5 min",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR58A.gif"
+                    },
+                    {
+                        "id": "rf1h",
+                        "description": "rainfall in 1 hour",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR58B.gif"
+                    },
+                    {
+                        "id": "rf9am",
+                        "description": "rainfall since 9am",
+                        "interval": 3600,
+                        "url": "http://www.bom.gov.au/radar/IDR58C.gif"
+                    },
+                    {
+                        "id": "rf24h",
+                        "description": "rainfall in 24 hours",
+                        "interval": 86400,
+                        "url": "http://www.bom.gov.au/radar/IDR58D.gif"
+                    }
+                ]
+            },
+            {
+                "id": "watheroo",
+                "description": "Watheroo",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR794.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR793.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR792.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR791.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR79I.gif"
+                    },
+                    {
+                        "id": "rf5m",
+                        "description": "rainfall in 5 min",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR79A.gif"
+                    },
+                    {
+                        "id": "rf1h",
+                        "description": "rainfall in 1 hour",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR79B.gif"
+                    },
+                    {
+                        "id": "rf9am",
+                        "description": "rainfall since 9am",
+                        "interval": 3600,
+                        "url": "http://www.bom.gov.au/radar/IDR79C.gif"
+                    },
+                    {
+                        "id": "rf24h",
+                        "description": "rainfall in 24 hours",
+                        "interval": 86400,
+                        "url": "http://www.bom.gov.au/radar/IDR79D.gif"
+                    }
+                ]
+            },
+            {
+                "id": "wyndham",
+                "description": "Wyndham",
+                "items": [
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR073.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR072.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR071.gif"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "sa",
+        "description": "SA",
+        "items": [
+            {
+                "id": "adelaide_buckland",
+                "description": "Adelaide (Buckland Park)",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR644.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR643.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR642.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR641.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR64I.gif"
+                    },
+                    {
+                        "id": "rf5m",
+                        "description": "rainfall in 5 min",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR64A.gif"
+                    },
+                    {
+                        "id": "rf1h",
+                        "description": "rainfall in 1 hour",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR64B.gif"
+                    },
+                    {
+                        "id": "rf9am",
+                        "description": "rainfall since 9am",
+                        "interval": 3600,
+                        "url": "http://www.bom.gov.au/radar/IDR64C.gif"
+                    },
+                    {
+                        "id": "rf24h",
+                        "description": "rainfall in 24 hours",
+                        "interval": 86400,
+                        "url": "http://www.bom.gov.au/radar/IDR64D.gif"
+                    }
+                ]
+            },
+            {
+                "id": "adelaide_sellicks",
+                "description": "Adelaide (Sellicks Hill)",
+                "items": [
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR463.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR462.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR461.gif"
+                    },
+                    {
+                        "id": "rf5m",
+                        "description": "rainfall in 5 min",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR46A.gif"
+                    },
+                    {
+                        "id": "rf1h",
+                        "description": "rainfall in 1 hour",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR46B.gif"
+                    },
+                    {
+                        "id": "rf9am",
+                        "description": "rainfall since 9am",
+                        "interval": 3600,
+                        "url": "http://www.bom.gov.au/radar/IDR46C.gif"
+                    },
+                    {
+                        "id": "rf24h",
+                        "description": "rainfall in 24 hours",
+                        "interval": 86400,
+                        "url": "http://www.bom.gov.au/radar/IDR46D.gif"
+                    }
+                ]
+            },
+            {
+                "id": "ceduna",
+                "description": "Ceduna",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR334.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR333.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR332.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR331.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR33I.gif"
+                    },
+                    {
+                        "id": "rf5m",
+                        "description": "rainfall in 5 min",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR33A.gif"
+                    },
+                    {
+                        "id": "rf1h",
+                        "description": "rainfall in 1 hour",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR33B.gif"
+                    },
+                    {
+                        "id": "rf9am",
+                        "description": "rainfall since 9am",
+                        "interval": 3600,
+                        "url": "http://www.bom.gov.au/radar/IDR33C.gif"
+                    },
+                    {
+                        "id": "rf24h",
+                        "description": "rainfall in 24 hours",
+                        "interval": 86400,
+                        "url": "http://www.bom.gov.au/radar/IDR33D.gif"
+                    }
+                ]
+            },
+            {
+                "id": "gambier",
+                "description": "Mt Gambier",
+                "items": [
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR143.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR142.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR141.gif"
+                    }
+                ]
+            },
+            {
+                "id": "woomera",
+                "description": "Woomera",
+                "items": [
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR273.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR272.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR271.gif"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "tas",
+        "description": "TAS",
+        "items": [
+            {
+                "id": "hobart",
+                "description": "Hobart (Mt Koonya)",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR764.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR763.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR762.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR761.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR76I.gif"
+                    },
+                    {
+                        "id": "rf5m",
+                        "description": "rainfall in 5 min",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR76A.gif"
+                    },
+                    {
+                        "id": "rf1h",
+                        "description": "rainfall in 1 hour",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR76B.gif"
+                    },
+                    {
+                        "id": "rf9am",
+                        "description": "rainfall since 9am",
+                        "interval": 3600,
+                        "url": "http://www.bom.gov.au/radar/IDR76C.gif"
+                    },
+                    {
+                        "id": "rf24h",
+                        "description": "rainfall in 24 hours",
+                        "interval": 86400,
+                        "url": "http://www.bom.gov.au/radar/IDR76D.gif"
+                    }
+                ]
+            },
+            {
+                "id": "nw",
+                "description": "N.W. Tasmania",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR524.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR523.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR522.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR521.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR52I.gif"
+                    },
+                    {
+                        "id": "rf5m",
+                        "description": "rainfall in 5 min",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR52A.gif"
+                    },
+                    {
+                        "id": "rf1h",
+                        "description": "rainfall in 1 hour",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR52B.gif"
+                    },
+                    {
+                        "id": "rf9am",
+                        "description": "rainfall since 9am",
+                        "interval": 3600,
+                        "url": "http://www.bom.gov.au/radar/IDR52C.gif"
+                    },
+                    {
+                        "id": "rf24h",
+                        "description": "rainfall in 24 hours",
+                        "interval": 86400,
+                        "url": "http://www.bom.gov.au/radar/IDR52D.gif"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "nt",
+        "description": "NT",
+        "items": [
+            {
+                "id": "alice_springs",
+                "description": "Alice Springs",
+                "items": [
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR253.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR252.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR251.gif"
+                    }
+                ]
+            },
+            {
+                "id": "darwin",
+                "description": "Darwin (Berrimah)",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR634.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR633.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR632.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR631.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR63I.gif"
+                    }
+                ]
+            },
+            {
+                "id": "gove",
+                "description": "Gove",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR1124.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR1123.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR1122.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR1121.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR112I.gif"
+                    }
+                ]
+            },
+            {
+                "id": "katherine",
+                "description": "Katherine (Tindal)",
+                "items": [
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR423.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR422.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR421.gif"
+                    }
+                ]
+            },
+            {
+                "id": "warruwi",
+                "description": "Warruwi",
+                "items": [
+                    {
+                        "id": "64",
+                        "description": "64 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR774.gif"
+                    },
+                    {
+                        "id": "128",
+                        "description": "128 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR773.gif"
+                    },
+                    {
+                        "id": "256",
+                        "description": "256 km",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR772.gif"
+                    },
+                    {
+                        "id": "512",
+                        "description": "512 km composite",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR771.gif"
+                    },
+                    {
+                        "id": "dopp",
+                        "description": "Doppler wind",
+                        "interval": 300,
+                        "url": "http://www.bom.gov.au/radar/IDR77I.gif"
                     }
                 ]
             }

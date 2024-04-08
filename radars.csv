@@ -1,0 +1,64 @@
+Region,Region ID,Location ID,Location,Radar ID,64,128,256,512,dopp,rf5m,rf1h,rf9am,rf24h
+NSW/ACT,nsw,93,Brewarrina,brewarrina,1,1,1,1,1,1,1,1,1
+NSW/ACT,nsw,40,Canberra (Captains Flat),canberra,1,1,1,1,1,1,1,1,1
+NSW/ACT,nsw,28,Grafton,grafton,0,1,1,1,0,0,0,0,0
+NSW/ACT,nsw,94,Hillston,hillston,1,1,1,1,1,1,1,1,1
+NSW/ACT,nsw,53,Moree,moree,0,1,1,1,0,0,0,0,0
+NSW/ACT,nsw,69,Namoi (Blackjack Mountain),namoi,1,1,1,1,1,0,0,0,0
+NSW/ACT,nsw,4,Newcastle,newcastle,1,1,1,1,1,1,1,1,1
+NSW/ACT,nsw,71,Sydney (Terrey Hills),sydney,1,1,1,1,1,1,1,1,1
+NSW/ACT,nsw,55,Wagga Wagga,wagga,0,1,1,1,0,0,0,0,0
+NSW/ACT,nsw,3,Wollongong (Appin),wollongong,1,1,1,1,1,1,1,1,1
+NSW/ACT,nsw,96,Yeoval,yeoval,1,1,1,1,1,1,1,1,1
+VIC,vic,68,Bairnsdale,bairnsdale,0,1,1,1,1,0,0,0,0
+VIC,vic,2,Melbourne,melbourne,1,1,1,1,1,1,1,1,1
+VIC,vic,97,Mildura,mildura,1,1,1,1,1,1,1,1,1
+VIC,vic,95,Rainbow,rainbow,1,1,1,1,1,1,1,1,1
+VIC,vic,49,Yarrawonga,yarrawonga,1,1,1,1,1,0,0,0,0
+QLD,qld,24,Bowen,bowen,0,1,1,1,0,0,0,0,0
+QLD,qld,50,Brisbane (Marburg),brisbane_marburg,1,1,1,1,1,0,0,0,0
+QLD,qld,66,Brisbane (Mt Stapylton),brisbane_stapylton,1,1,1,1,1,1,1,1,1
+QLD,qld,105,Brisbane Airport,brisbane_ap,1,1,1,1,0,0,0,0,0
+QLD,qld,19,Cairns,cairns,1,1,1,1,1,0,0,0,0
+QLD,qld,72,Emerald,emerald,1,1,1,1,1,0,0,0,0
+QLD,qld,23,Gladstone,gladstone,0,1,1,1,0,0,0,0,0
+QLD,qld,74,Greenvale,greenvale,1,1,1,1,1,1,1,1,1
+QLD,qld,36,Gulf of Carpentaria (Mornington Is),carpentaria,0,1,1,1,0,0,0,0,0
+QLD,qld,8,Gympie (Mt Kanigan),gympie,1,1,1,1,1,1,1,1,1
+QLD,qld,56,Longreach,longreach,0,1,1,1,0,0,0,0,0
+QLD,qld,22,Mackay,mackay,1,1,1,1,1,0,0,0,0
+QLD,qld,75,Mount Isa,isa,1,1,1,1,1,1,1,1,1
+QLD,qld,107,Richmond,richmond,1,1,1,1,1,1,1,1,1
+QLD,qld,98,Taroom,taroom,1,1,1,1,1,1,1,1,1
+QLD,qld,73,Townsville (Hervey Range),townsville,1,1,1,1,1,0,0,0,0
+QLD,qld,67,Warrego,warrego,0,1,1,1,0,0,0,0,0
+QLD,qld,78,Weipa,weipa,1,1,1,1,1,0,0,0,0
+QLD,qld,41,Willis Island,willis,0,1,1,1,1,0,0,0,0
+WA,wa,31,Albany,albany,1,1,1,1,1,1,1,1,1
+WA,wa,17,Broome,broome,1,1,1,1,1,1,1,1,1
+WA,wa,5,Carnarvon,carnarvon,0,1,1,1,0,0,0,0,0
+WA,wa,15,Dampier,dampier,1,1,1,1,1,1,1,1,1
+WA,wa,32,Esperance,esperance,1,1,1,1,1,1,1,1,1
+WA,wa,6,Geraldton,geraldton,1,1,1,1,1,1,1,1,1
+WA,wa,44,Giles,giles,0,1,1,1,0,0,0,0,0
+WA,wa,39,Halls Creek,halls,0,1,1,1,0,0,0,0,0
+WA,wa,48,Kalgoorlie,kalgoorlie,1,1,1,1,1,1,1,1,1
+WA,wa,29,Learmonth,learmonth,0,1,1,1,0,0,0,0,0
+WA,wa,38,Newdegate,newdegate,1,1,1,1,1,1,1,1,1
+WA,wa,70,Perth (Serpentine),perth,1,1,1,1,1,1,1,1,1
+WA,wa,16,Pt Hedland,hedland,0,1,1,1,0,0,0,0,0
+WA,wa,58,South Doodlakine,doodlakine,1,1,1,1,1,1,1,1,1
+WA,wa,79,Watheroo,watheroo,1,1,1,1,1,1,1,1,1
+WA,wa,7,Wyndham,wyndham,0,1,1,1,0,0,0,0,0
+SA,sa,64,Adelaide (Buckland Park),adelaide_buckland,1,1,1,1,1,1,1,1,1
+SA,sa,46,Adelaide (Sellicks Hill),adelaide_sellicks,0,1,1,1,0,1,1,1,1
+SA,sa,33,Ceduna,ceduna,1,1,1,1,1,1,1,1,1
+SA,sa,14,Mt Gambier,gambier,0,1,1,1,0,0,0,0,0
+SA,sa,27,Woomera,woomera,0,1,1,1,0,0,0,0,0
+TAS,tas,76,Hobart (Mt Koonya),hobart,1,1,1,1,1,1,1,1,1
+TAS,tas,52,N.W. Tasmania,nw,1,1,1,1,1,1,1,1,1
+NT,nt,25,Alice Springs,alice_springs,0,1,1,1,0,0,0,0,0
+NT,nt,63,Darwin (Berrimah),darwin,1,1,1,1,1,0,0,0,0
+NT,nt,112,Gove,gove,1,1,1,1,1,0,0,0,0
+NT,nt,42,Katherine (Tindal),katherine,0,1,1,1,0,0,0,0,0
+NT,nt,77,Warruwi,warruwi,1,1,1,1,1,0,0,0,0
